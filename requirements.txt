@@ -1,0 +1,10 @@
+tensorflow
+tensorflow_hub
+numpy
+flask
+gunicorn
+Werkzeug
+keras
+opencv-python
+opencv-python-headless
+pillow
