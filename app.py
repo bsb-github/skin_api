@@ -64,7 +64,3 @@ def upload_image():
     info = predict(filepath)
 
     return jsonify({'code': '0', 'result': info}), 200
-
-if __name__ == "__main__":
-    print(("* Loading Keras model and Flask starting server...please wait until server has fully started"))
-    app.run()
